@@ -16828,6 +16828,29 @@ RP.PropEmotes = {
               -43.82733,
               164.6747,
 			   -7.5569
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["patrolcar"] = {
+        "amb@incar@male@patrol@torch@base",
+        "base",
+        "Patrol Car - Front",
+        AnimationOptions = {
+            Prop = 'prop_cs_police_torch_02',
+            PropBone = 28422,
+            PropPlacement = {
+               0.0,
+              -0.0100,
+              -0.0100,
+               0.0,
+               0.0,
+             100.0000
+            },
+            EmoteLoop = true
+        }
+    },
     ["pineapple"] = { -- Custom Prop by hollywoodiownu
         "anim@heists@humane_labs@finale@keycards",
         "ped_a_enter_loop",
@@ -16866,24 +16889,6 @@ RP.PropEmotes = {
             EmoteMoving = true
         }
     },
-    ["patrolcar"] = {
-        "amb@incar@male@patrol@torch@base",
-        "base",
-        "Patrol Car - Front",
-        AnimationOptions = {
-            Prop = 'prop_cs_police_torch_02',
-            PropBone = 28422,
-            PropPlacement = {
-               0.0,
-              -0.0100,
-              -0.0100,
-               0.0,
-               0.0,
-             100.0000
-            },
-            EmoteLoop = true
-        }
-    },
     ["patrolcarl"] = {
         "amb@incar@male@patrol@torch@idle_b",
         "idle_d",
@@ -16920,8 +16925,6 @@ RP.PropEmotes = {
             EmoteLoop = true
         }
     },
-
-}
     ["papers"] = {
         "missheistdocksprep1hold_cellphone",
         "static",
